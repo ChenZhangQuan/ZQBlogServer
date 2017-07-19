@@ -24,12 +24,12 @@ app.all('*', function(req, res, next) {
     next();
 });
 
-app.get('/:filename', function (req, res) {
- console.log(req.params.filename);
- // res.send('Hello World');
- res.sendfile(__dirname + '/'+ req.params.filename);
-
-})
+// app.get('/:filename', function (req, res) {
+//  console.log(req.params.filename);
+//  // res.send('Hello World');
+//  res.sendfile(__dirname + '/'+ req.params.filename);
+//
+// })
 
 app.get('/articles', function (req, res) {
 
