@@ -1,4 +1,3 @@
-var WebSocketServer = require('ws').Server;
 var mongo = require("./mongoTest.js")
 
 
